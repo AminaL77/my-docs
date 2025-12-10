@@ -32,8 +32,8 @@ jobs:
       - name: 部署到GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
-        publish_dir: docs/.vuepress/dist
-        publish_branch: gh-pages
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
+          publish_dir: docs/.vuepress/dist
+          publish_branch: gh-pages
         # 注释或删除之前的 github_token 配置
         # github_token: ${{ secrets.GITHUB_TOKEN }}
