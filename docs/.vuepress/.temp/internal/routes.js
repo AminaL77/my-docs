@@ -8,5 +8,25 @@ export const routes = Object.fromEntries([
   ["/PickWiz/V1.8.0/%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E.html", { loader: () => import(/* webpackChunkName: "PickWiz_V1.8.0_更新说明.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/V1.8.0/更新说明.html.js"), meta: {"title":"更新说明"} }],
   ["/PickWiz/V1.8.0/%E8%A7%86%E8%A7%89%E6%96%B9%E6%A1%88.html", { loader: () => import(/* webpackChunkName: "PickWiz_V1.8.0_视觉方案.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/V1.8.0/视觉方案.html.js"), meta: {"title":"视觉方案"} }],
   ["/PickWiz/%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/V1.7.6.html", { loader: () => import(/* webpackChunkName: "PickWiz_历史版本_V1.7.6.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/历史版本/V1.7.6.html.js"), meta: {"title":"V1.7.6"} }],
+  ["/PickWiz/V1.8.0/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/%E6%9C%AF%E8%AF%AD%E5%92%8C%E6%A6%82%E5%BF%B5.html", { loader: () => import(/* webpackChunkName: "PickWiz_V1.8.0_软件简介_术语和概念.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/V1.8.0/软件简介/术语和概念.html.js"), meta: {"title":"术语和概念"} }],
+  ["/PickWiz/V1.8.0/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/%E8%BD%AF%E4%BB%B6%E7%95%8C%E9%9D%A2.html", { loader: () => import(/* webpackChunkName: "PickWiz_V1.8.0_软件简介_软件界面.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/V1.8.0/软件简介/软件界面.html.js"), meta: {"title":"软件界面"} }],
+  ["/PickWiz/V1.8.0/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html", { loader: () => import(/* webpackChunkName: "PickWiz_V1.8.0_软件简介_软件简介.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/V1.8.0/软件简介/软件简介.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}

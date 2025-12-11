@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as c}from"./app-DnGXAd7K.js";const B={};function a(o,r){return c(),e("div")}const n=t(B,[["render",a]]),i=JSON.parse('{"path":"/PickWiz/V1.8.0/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html","title":"","lang":"zh-CN","frontmatter":{},"git":{},"filePathRelative":"PickWiz/V1.8.0/软件简介/软件简介.md"}');export{n as comp,i as data};

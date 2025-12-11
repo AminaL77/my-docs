@@ -6,3 +6,6 @@ Git 命令提交更改并推送到 GitHub
 git add .
 git commit -m "更新了某篇文档"
 git push
+
+检查文档问题
+pnpm run docs:build

@@ -31,12 +31,18 @@ export default defineUserConfig({
             { text: '概述', link: '' }, // 空字符串表示当前目录的README.md
             {
               text: 'PickWiz 1.8.0',
-              collapsable: true,
+              collapsible: true,
               children: [
                 { text: '更新说明', link: 'V1.8.0/更新说明.md' },
                 { text: '视觉方案', link: 'V1.8.0/视觉方案.md' },
                 { text: '安装指南', link: 'V1.8.0/安装指南.md' },
-                { text: '软件简介', link: 'V1.8.0/软件简介.md' },
+                { 
+                  text: '软件简介', 
+                  collaspsable: true,
+                  children:[
+                    {text: '术语和概念', link: 'V1.8.0/软件简介/术语和概念.md'},
+                    {text: '软件界面', link:'V1.8.0/软件简介/软件界面.md'}
+                  ] },
                 { text: '常用操作', link: 'V1.8.0/常用操作.md' },
                 { text: '手眼标定', link: 'V1.8.0/手眼标定.md' },
                 { text: '视觉参数', link: 'V1.8.0/视觉参数.md' },

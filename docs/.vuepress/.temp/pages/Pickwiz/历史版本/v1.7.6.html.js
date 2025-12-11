@@ -1,3 +1,16 @@
 import comp from "C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/历史版本/V1.7.6.html.vue"
 const data = JSON.parse("{\"path\":\"/PickWiz/%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/V1.7.6.html\",\"title\":\"V1.7.6\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"V1.7.6\"},\"git\":{\"updatedTime\":1765437058000,\"contributors\":[{\"name\":\"DYLiu\",\"username\":\"DYLiu\",\"email\":\"aminaliu77@gmail.com\",\"commits\":1,\"url\":\"https://github.com/DYLiu\"}],\"changelog\":[{\"hash\":\"010a7e4160a269885fa3ac0e3978a1bcfc7b2cb0\",\"time\":1765437058000,\"email\":\"aminaliu77@gmail.com\",\"author\":\"DYLiu\",\"message\":\"更新了某篇文档\"}]},\"filePathRelative\":\"PickWiz/历史版本/V1.7.6.md\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
