@@ -12,8 +12,8 @@ export default defineUserConfig({
         text: 'PickWiz', 
         children: [
           { text: '概述', link: '/PickWiz/' },
-          { text: '最新版本 V1.8.0', link: '/PickWiz/V1.8.0/' },
-          { text: '历史版本', link: '/PickWiz/历史版本/' }
+          { text: '当前版本 V1.8.0', link: '/PickWiz/V1.8.0/更新说明.md' },
+          { text: '历史版本', link: '/PickWiz/历史版本/V1.7.6.md' }
         ]
       },
       { text: 'DexSense', link: '/DexSense/' },
