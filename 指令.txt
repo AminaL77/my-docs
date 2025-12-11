@@ -1,0 +1,8 @@
+在命令行进入 my docs 目录，运行 pnpm run docs:dev
+然后在浏览器访问 http://localhost:8080 查看效果并点击导航栏测试
+
+
+Git 命令提交更改并推送到 GitHub
+git add .
+git commit -m "更新了某篇文档"
+git push
