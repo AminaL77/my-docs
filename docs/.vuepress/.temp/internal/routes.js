@@ -10,20 +10,3 @@ export const routes = Object.fromEntries([
   ["/PickWiz/%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/V1.7.6.html", { loader: () => import(/* webpackChunkName: "PickWiz_历史版本_V1.7.6.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/PickWiz/历史版本/V1.7.6.html.js"), meta: {"title":"V1.7.6"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/Administrator/Desktop/my docs/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
